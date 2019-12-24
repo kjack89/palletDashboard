@@ -1,5 +1,5 @@
 # palletDashboard
-Dashboard that I created to look at how specific products are moving across North America.
+Dashboard that I created using RShiny to look at how specific products are moving across North America.
 
 To use:
 1) download the 2 files (.R and .js) and the amocTelemReport folder of csv files.
