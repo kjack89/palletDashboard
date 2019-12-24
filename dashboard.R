@@ -8,8 +8,7 @@ library(shiny)
 library(leaflet)
 library(htmltools)
 
-#edit filepath here
-filePath = "C:/Users/kcjac/OneDrive/Documents/R/palletDashboard/amocTelemReport/amocTelemReport/"
+filePath = "filepath/" #edit filepath here
 fileNames = dir(filePath, pattern='.csv')
 amocTelemdata = read_csv(paste0(filePath,"amocTelemetryReport_20191025121436.csv"))
 gt1Day = read_csv(paste0(filePath,"modifyPalletLocationTypes_butDontChangeFileName.csv")) %>%
